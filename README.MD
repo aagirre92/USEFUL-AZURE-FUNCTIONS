@@ -4,12 +4,12 @@ This repository contains a collection of Azure Functions written in Python that 
 
 ## Overview
 
-This Azure Functions app includes four main endpoints designed to showcase different enterprise integration scenarios:
+This Azure Functions app includes four main endpoints designed to showcase different enterprise integration scenarios. Most of them are for pure demo and learning purposes!
 
 1. **HTTP Trigger** - Basic HTTP endpoint with personalized responses
 2. **SOAP Service Integration** - Demonstrates calling external SOAP web services
 3. **Inventory Management** - Mock inventory balance checking system
-4. **Excel File Processing** - Processes base64-encoded Excel files to extract PO details
+4. **Excel File Processing** - Processes base64-encoded .XLS file to extract PO details (vendor id, vendor name and PO number)
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ This Azure Functions app includes four main endpoints designed to showcase diffe
 The project uses the following Python packages:
 - `azure-functions` - Azure Functions runtime for Python
 - `zeep` - Python SOAP client library
-- `xlrd` - Excel file reading library
+- `xlrd` - Excel file (.xls) reading library
 
 ## Local Development
 
